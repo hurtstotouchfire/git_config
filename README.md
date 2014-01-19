@@ -59,5 +59,9 @@ If you've already installed the bash prompt and you've just run the git setup sc
 8. Check the status of your branch again: `git st`
 8. Push this branch for the first time: `git fpush`
 
-A few more comments:
 In the future, any commits to this branch can be pushed using simply `git push`. A full explanation of each of the aliases in `gitconfig` and what some of the other lines do is available in line comments on the commit [64d3259357](https://github.com/CRC-BU/git_config/commit/64d3259357eb9d933c3966fde8601613318c13ee).
+
+Additional Resources
+=====================
+- [git documentation](http://git-scm.com/docs)
+- [git command diagram / cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
