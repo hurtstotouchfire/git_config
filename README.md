@@ -26,7 +26,7 @@ git clone git@github.com:CRC-BU/git_config.git
 ```
 Add prompt configuration to your bashrc
 ---------------------------------------
-Since nearly every machine has one already, I assumed that appending would be the easiest option for everyone. If you don't have a file at `~/.bashrc`, you can just copy `append_to_bashrc` into your home directory. Just add `#!/bin/bash` on the first line of the file.
+Since nearly every machine has one already, I assumed that appending would be the easiest option for everyone. If you don't have a file at `~/.bashrc`, you can just copy `append_to_bashrc` into your home directory. Just add `#!/bin/bash` on the first line of the file. The only thing to change in this text is that you have to change `dot_dir` to the directory where you cloned this repo.
 
 After saving this, you can open a new terminal, or re-source your bashrc (run: `. ~/.bashrc`) to see the effects. This wil color your prompt, and if you cd into the git_config directory we just cloned, you should see the branch "master" listed in the prompt.
 
