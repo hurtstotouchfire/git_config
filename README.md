@@ -55,11 +55,12 @@ If you've already installed the bash prompt and you've just run the git setup sc
 4. Apply your changes: `git stash apply`
 5. See what changes can be committed: `git st`
 6. Commit your changes: `git cam "write a brief description here"`
-7. You should see the exclamation mark disappear since you have no uncommitted changes now.
-8. Check the status of your branch again: `git st`
-8. Push this branch for the first time: `git fpush`
+7. View the commit history: `git lg`
+8. You should see the exclamation mark disappear since you have no uncommitted changes now.
+9. Check the status of your branch again: `git st`
+10. Push this branch for the first time: `git fpush`
 
-In the future, any commits to this branch can be pushed using simply `git push`. A full explanation of each of the aliases in `gitconfig` and what some of the other lines do is available in line comments on the commit [64d3259357](https://github.com/CRC-BU/git_config/commit/64d3259357eb9d933c3966fde8601613318c13ee).
+In the future, any commits to this branch can be pushed using simply `git push`. A fuller explanation of the aliases in `gitconfig` and what some of the other lines do is available in line comments on the commit [64d3259357](https://github.com/CRC-BU/git_config/commit/64d3259357eb9d933c3966fde8601613318c13ee).
 
 Additional Resources
 =====================
