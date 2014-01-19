@@ -1,6 +1,6 @@
 # Configure bash prompt
 # Regular Colors
-Black='\e[0;30m\]'        # Black
+Black='\[\e[0;30m\]'        # Black
 Red='\[\e[0;31m\]'          # Red
 Green='\[\e[0;32m\]'        # Green
 Yellow='\[\e[0;33m\]'       # Yellow
