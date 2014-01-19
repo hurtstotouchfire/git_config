@@ -32,3 +32,32 @@ After saving this, you can open a new terminal, or re-source your bashrc (run: `
 
 Running git setup script
 ------------------------
+
+The git setup script `git_setup.sh` is written to be run multiple times if needed, and it's very conservative so it won't destroy any existing files. You can pretty much just run it, and you should run it once on each machine you clone this repo on.
+
+From the git_config directory you can run:
+```
+sh git_setup `pwd`
+```
+You will be prompted to enter your name and email. Note that this config file currently provides a default text editor of emacs, so if you want to change that, you can run an additional command after running this script:
+```
+git config --global core.editor vim
+```
+After running this script, you will actually have changed values in the `gitconfig` file in this repo, so you should probably create your own branch and commit them. It's good practice.
+
+Committing changes to your own branch in this repo
+--------------------------------------------------
+If you've already installed the bash prompt and you've just run the git setup script you should see a red exclamation point after the branch name on your command prompt indicating that you have made uncommitted changes to the repository. The following steps will introduce all of the aliases in this configuration and allow you to add your own branch to this repo.
+
+1. Look at the changes you've made by running `git diff`.
+2. Let's stow those away for now: `git stash`
+3. Make yourself a new branch: `git nb yourname`
+4. Apply your changes: `git stash apply`
+5. See what changes can be committed: `git st`
+6. Commit your changes: `git cam "write a brief description here"`
+7. You should see the exclamation mark disappear since you have no uncommitted changes now.
+8. Check the status of your branch again: `git st`
+8. Push this branch for the first time: `git fpush`
+
+A few more comments:
+In the future, any commits to this branch can be pushed using simply `git push`. A full explanation of each of the aliases in `gitconfig` and what some of the other lines do is available on 64d3259357.
