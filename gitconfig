@@ -1,0 +1,38 @@
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+
+[color "diff"]
+        meta = yellow
+
+[alias]
+        st = status
+        cm = commit -m
+        cam = commit -am
+        br = branch
+        co = checkout
+	nb = checkout -b
+	fpush = push origin -u HEAD
+        df = diff --word-diff=color
+        lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr - %cn)%Creset' --abbrev-commit --date=relative
+        sub = submodule update
+        unstage = reset HEAD
+	uncommit = reset --soft HEAD~1
+[branch]
+        autosetupmerge = true
+        autosetuprebase = always
+[core]
+        whitespace = trailing-space,space-before-tab
+        filemode = false
+        autocrlf = input
+	editor = emacs
+[rerere]
+        enabled = 1
+[push]
+        default = tracking
+[diff]
+        mnemonicprefix = true
+[merge]
+        stat = true
+
