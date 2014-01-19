@@ -60,4 +60,4 @@ If you've already installed the bash prompt and you've just run the git setup sc
 8. Push this branch for the first time: `git fpush`
 
 A few more comments:
-In the future, any commits to this branch can be pushed using simply `git push`. A full explanation of each of the aliases in `gitconfig` and what some of the other lines do is available on 64d3259357.
+In the future, any commits to this branch can be pushed using simply `git push`. A full explanation of each of the aliases in `gitconfig` and what some of the other lines do is available on 64d3259357eb9d933c3966fde8601613318c13ee.
