@@ -8,7 +8,7 @@ Blue='\[\e[0;34m\]'         # Blue
 Purple='\[\e[0;35m\]'       # Purple
 Cyan='\[\e[0;36m\]'         # Cyan
 White='\[\e[0;37m\]'        # White
-Light_Gray="\[\033[0;37m\]"
+Light_Gray='\[\033[0;37m\]'
 
 # Bold
 BBlack='\[\e[1;30m\]'       # Black
