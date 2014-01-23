@@ -25,7 +25,8 @@
         whitespace = trailing-space,space-before-tab
         filemode = false
         autocrlf = input
-	editor = emacs
+	editor = vim
+	excludesfile = /home/gmf/Code/repos/git_config/gitignore_global
 [rerere]
         enabled = 1
 [push]
@@ -35,3 +36,6 @@
 [merge]
         stat = true
 
+[user]
+	name = Grant
+	email = gfiddyment@gmail.com
