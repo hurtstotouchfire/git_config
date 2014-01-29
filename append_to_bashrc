@@ -1,7 +1,4 @@
-# change this to the git repo path here where the dotfiles live.
-dot_dir=~/
-# this will just run that file in the repo every time you open a new terminal
-. ${dot_dir}/bash_prompt.sh 
+
 
 
 
