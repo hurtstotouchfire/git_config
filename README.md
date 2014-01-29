@@ -37,7 +37,7 @@ The git setup script `git_setup.sh` is written to be run multiple times if neede
 
 From the git_config directory you can run:
 ```
-sh git_setup `pwd`
+sh git_setup.sh `pwd`
 ```
 You will be prompted to enter your name and email. Note that this config file currently provides a default text editor of emacs, so if you want to change that, you can run an additional command after running this script:
 ```
