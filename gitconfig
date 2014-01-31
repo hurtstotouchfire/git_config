@@ -25,7 +25,7 @@
         whitespace = trailing-space,space-before-tab
         filemode = false
         autocrlf = input
-	editor = emacs
+	editor = vim
 [rerere]
         enabled = 1
 [push]

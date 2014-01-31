@@ -40,4 +40,5 @@ else
     # add name and email to git config
     git config --global user.name "${name}"
     git config --global user.email "${email}"
+    git config --global core.editor vim
 fi
