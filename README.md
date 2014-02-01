@@ -43,11 +43,14 @@ You will be prompted to enter your name and email. Note that this config file cu
 ```
 git config --global core.editor vim
 ```
-After running this script, you will actually have changed values in the `gitconfig` file in this repo, so you should probably create your own branch and commit them. It's good practice.
 
 Committing changes to your own branch in this repo
 --------------------------------------------------
-If you've already installed the bash prompt and you've just run the git setup script you should see a red exclamation point after the branch name on your command prompt indicating that you have made uncommitted changes to the repository. The following steps will introduce all of the aliases in this configuration and allow you to add your own branch to this repo.
+After running the git setup script, you will actually have changed values in the `gitconfig` file in this repo, so you should probably create your own branch and commit them. It's good practice. 
+
+Change into the git_config directory (`cd git_config`). If you've already installed the bash prompt and you've just run the git setup script you should see a red exclamation point after the branch name on your command prompt indicating that you have made uncommitted changes to the repository. 
+
+The following steps will introduce all of the aliases in this configuration and allow you to add your own branch to this repo. 
 
 1. Look at the changes you've made by running `git diff`.
 2. Let's stow those away for now: `git stash`
@@ -55,7 +58,7 @@ If you've already installed the bash prompt and you've just run the git setup sc
 4. Apply your changes: `git stash apply`
 5. See what changes can be committed: `git st`
 6. Commit your changes: `git cam "write a brief description here"`
-7. View the commit history: `git lg`
+7. View the commit history: `git lg` (you may need to enter `q` to exit this list)
 8. You should see the exclamation mark disappear since you have no uncommitted changes now.
 9. Check the status of your branch again: `git st`
 10. Push this branch for the first time: `git fpush`

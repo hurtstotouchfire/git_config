@@ -1,4 +1,9 @@
+# change this to the git repo path here where the dotfiles live. 
+# i.e. ~/projects/git_config if you cloned it in ~/projects
+dot_dir=~/git_config
 
+# this will just run that file in the repo every time you open a new terminal
+. ${dot_dir}/bash_prompt.sh 
 
 
 
