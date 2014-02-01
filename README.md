@@ -58,7 +58,7 @@ The following steps will introduce all of the aliases in this configuration and 
 4. Apply your changes: `git stash apply`
 5. See what changes can be committed: `git st`
 6. Commit your changes: `git cam "write a brief description here"`
-7. View the commit history: `git lg`
+7. View the commit history: `git lg` (you may need to enter `q` to exit this list)
 8. You should see the exclamation mark disappear since you have no uncommitted changes now.
 9. Check the status of your branch again: `git st`
 10. Push this branch for the first time: `git fpush`
