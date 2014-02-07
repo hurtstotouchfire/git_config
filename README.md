@@ -1,5 +1,29 @@
-Instructions
-=========
+Improvements this repo provides
+===============================
+
+In practice, most software developers use some [syntactic sugar](http://en.wikipedia.org/wiki/Syntactic_sugar) to help ease their use of git and GitHub. If you're using git on the command line (as opposed to with a GUI client), we recommend that you adopt these config files as a starting point. These files will provide you with branch information on the bash prompt as well as some convenient aliases for commands that you'll need to use on a regular basis.
+
+Examples
+------------
+Standard git log shows the commit history:
+
+![vanilla git log](images/git_log.png)
+
+With configs, the log is more compact, color-coded, and shows the branching structure:
+
+![git lg alias with pretty format](images/git_lg.png)
+
+Standard bash prompt shown, must use git branch command to check current branch and git status to check for uncommitted changes:
+
+![standard bash prompt](images/git_status.png)
+
+With configs, bash prompt shows current branch and a red flag for uncommitted changes:
+
+![bash prompt with git branch and status](images/git_st.png)
+
+
+Installation
+============
 
 This assumes you've done nothing to set up git beyond registering a Github account and getting added to the org, and that you are running Mac OS or a Linux variant with a bash terminal. Windows users can make some use of these configs as well but it's not as polished yet (contributions welcome). Windows users running cygwin should branch off of the cygwin branch instead of the master branch of this repo.
 
@@ -29,6 +53,8 @@ Add prompt configuration to your bashrc
 Since nearly every machine has one already, I assumed that appending would be the easiest option for everyone. If you don't have a file at `~/.bashrc`, you can just copy `append_to_bashrc` into your home directory. Just add `#!/bin/bash` on the first line of the file. The only thing to change in this text is that you have to change `dot_dir` to the directory where you cloned this repo.
 
 After saving this, you can open a new terminal, or re-source your bashrc (run: `. ~/.bashrc`) to see the effects. This will color your prompt (colors can be configured in the script), and if you cd into the git_config directory we just cloned, you should see the branch "master" listed in the prompt.
+
+![bash prompt for git](images/add_prompt.png)
 
 Running git setup script
 ------------------------
