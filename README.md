@@ -93,5 +93,7 @@ In the future, any commits to this branch can be pushed using simply `git push`.
 
 Additional Resources
 =====================
-- [git documentation](http://git-scm.com/docs)
+- [comprehensive git documentation](http://git-scm.com/docs)
 - [git command diagram / cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
+- [git desktop application](http://guides.github.com/overviews/desktop/)
+- [intro to branching workflows](http://guides.github.com/overviews/flow/)
