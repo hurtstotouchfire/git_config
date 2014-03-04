@@ -26,6 +26,7 @@
         filemode = false
         autocrlf = input
 	editor = emacs
+	excludesfile = /usr2/postdoc/brpp/git_config/gitignore_global
 [rerere]
         enabled = 1
 [push]
@@ -35,3 +36,6 @@
 [merge]
         stat = true
 
+[user]
+	name = bp_@_scc2
+	email = benpolletta@gmail.com
