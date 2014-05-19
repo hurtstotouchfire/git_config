@@ -37,5 +37,7 @@
         stat = true
 
 [user]
-	name = Ben P.
+	name = benp
 	email = benpolletta@gmail.com
+[credential]
+	helper = osxkeychain
