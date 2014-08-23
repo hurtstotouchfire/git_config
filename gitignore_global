@@ -3,3 +3,8 @@
 \.#*
 *~
 *.swp
+*.txt
+*.pdf
+*.mat
+*.list
+*.fig
