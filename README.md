@@ -46,7 +46,7 @@ I keep all of my git repos in one directory: `~/src`, but you can put this where
 
 ```
 cd ~/
-git clone git@github.com:CRC-BU/git_config.git
+git clone git@github.com:cogrhythms/git_config.git
 ```
 Add prompt configuration to your bashrc
 ---------------------------------------
