@@ -26,7 +26,7 @@
         filemode = false
         autocrlf = input
 	editor = emacs
-	excludesfile = /home/bp/.gitignore_global
+	excludesfile = ./gitignore_global
 [rerere]
         enabled = 1
 [push]
@@ -37,5 +37,5 @@
         stat = true
 
 [user]
-	name = benp_mbp
+	name = benpolletta
 	email = benpolletta@gmail.com
