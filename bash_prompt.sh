@@ -53,6 +53,7 @@ function git_dirty {
   git diff --quiet HEAD &>/dev/null
   [ $? == 1 ] && echo "!"
 }
+
 # prompt components, set colors here using names from above. 
 # Some alternate colors are commented out as examples.
 ps1_user="$BIBlue\u$NONE"
@@ -63,9 +64,11 @@ ps1_dir="$BIYellow\w$NONE"
 ps1_git="$Yellow\$(parse_git_branch)$Red\$(git_dirty)$NONE"
 #ps1_git="$Cyan\$(parse_git_branch)$Red\$(git_dirty)$NONE" # cyan branch name
 
-# actually construct prompt
+## Actually construct prompt
 # delimiters between prompt components (like :@) are your default terminal text color, i.e. white
-# renders as: user@host:dir(branch)! $
-export PS1="${ps1_user}@${ps1_host}:${ps1_dir}${ps1_git} \[\$\] "
-# renders as: dir(branch)! >>
-#export PS1="${ps1_dir}${ps1_git} \[\>>\] "
+
+# Option 1 renders as: user@host:dir(branch)! $
+export PS1="${ps1_user}@${ps1_host}:${ps1_dir}${ps1_git} \$ "
+
+# Option 2 renders as: dir(branch)!>>
+#export PS1="${ps1_dir}${ps1_git}>> "
