@@ -46,7 +46,7 @@ NONE="\[\e[0m\]"
 
 # set up git prompt components
 function parse_git_branch {
-  git branch 2>/dev/null | grep '^*' | colrm 1 2 | sed 's_\(.*\)_(\1)_'
+  git branch 2>/dev/null | grep '^*' | sed 's_^..__' | sed 's_\(.*\)_(\1)_'
 }
 
 function git_dirty {
