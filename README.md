@@ -25,8 +25,7 @@ With configs, bash prompt shows current branch and a red flag for uncommitted ch
 Installation
 ============
 
-This assumes you've done nothing to set up git beyond registering a Github account and getting added to the org, and that you are running Mac OS or a Linux variant with a bash terminal. Windows users can make some use of these configs as well but it's not as polished yet (contributions welcome). Windows users running cygwin should branch off of the cygwin branch instead of the master branch of this repo.
-
+This assumes you've done nothing to set up git beyond registering a Github account and getting added to the org, and that you are running Mac OS or a Linux variant with a bash terminal. Windows users can running cygwin can use these configs as well. Note that Windows users & their collaborators may experience [issues with line ending conversion](https://github.com/cogrhythms/git_config/issues/4).
 
 Install git
 ------------
