@@ -26,7 +26,7 @@
         filemode = false
         autocrlf = input
 	editor = emacs
-	excludesfile = /usr2/postdoc/brpp/git_config/gitignore_global
+	excludesfile = /projectnb/crc-nak/brpp/git_config/gitignore_global
 [rerere]
         enabled = 1
 [push]
@@ -37,5 +37,5 @@
         stat = true
 
 [user]
-	name = bp_@_scc2
+	name = benpolletta
 	email = benpolletta@gmail.com
