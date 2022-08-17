@@ -25,7 +25,7 @@ With configs, bash prompt shows current branch and a red flag for uncommitted ch
 Installation
 ============
 
-This assumes you've done nothing to set up git beyond registering a Github account and getting added to the org, and that you are running Mac OS or a Linux variant with a bash terminal. Windows users can running cygwin can use these configs as well. Note that Windows users & their collaborators may experience [issues with line ending conversion](https://github.com/cogrhythms/git_config/issues/4).
+This assumes you've done nothing to set up git beyond registering a Github account and getting added to the org, and that you are running Mac OS or a Linux variant with a bash terminal. Windows users can running cygwin can use these configs as well. Note that Windows users & their collaborators may experience [issues with line ending conversion](https://github.com/hurtstotouchfire/git_config/issues/4).
 
 Install git
 ------------
@@ -45,7 +45,7 @@ I keep all of my git repos in one directory: `~/src`, but you can put this where
 
 ```
 cd ~/
-git clone git@github.com:cogrhythms/git_config.git
+git clone git@github.com:hurtstotouchfire/git_config.git
 ```
 Add prompt configuration to your bashrc
 ---------------------------------------
@@ -88,7 +88,7 @@ The following steps will introduce all of the aliases in this configuration and 
 9. Check the status of your branch again: `git st`
 10. Push this branch for the first time: `git fpush`
 
-In the future, any commits to this branch can be pushed using simply `git push`. A fuller explanation of the aliases in `gitconfig` and what some of the other lines do is available in line comments on the commit [64d3259357](https://github.com/CRC-BU/git_config/commit/64d3259357eb9d933c3966fde8601613318c13ee).
+In the future, any commits to this branch can be pushed using simply `git push`.
 
 Additional Resources
 =====================
